@@ -4,3 +4,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
