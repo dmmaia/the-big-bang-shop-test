@@ -1,0 +1,31 @@
+.rightPlaceBottomBox .marketBox .marketDescription,.marketPrice{
+    display: none;
+}
+.rightPlaceBottomBox .marketBox h2{
+    position: absolute;
+    top: 924px;
+    width: 160px;
+    height: 48px;
+
+
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 24px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+.rightPlaceBottomBox .marketBox .marketBuyNow {
+    position: absolute;
+    top: 982px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}

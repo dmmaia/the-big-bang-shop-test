@@ -3,8 +3,8 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    margin-top: 5vw;
     font-family: Proxima Nova;
+    flex-direction: column;
 }
 
 h2, h3, h4{
@@ -27,6 +27,9 @@ h2, h3, h4{
     }
     .desktop-apresentation-image{
         display: none;
+    }
+    .apresentation-box{
+        margin-bottom: 24px;
     }
     .apresentation-box div {
         position: absolute;
@@ -58,6 +61,9 @@ h2, h3, h4{
     .mobile-apresentation-image {
         display: none;
     }
+    .apresentation-box{
+        margin-bottom: 60px;
+    }
     .apresentation-box div{
         display: flex;
         position: absolute;
@@ -88,6 +94,9 @@ h2, h3, h4{
     .mobile-apresentation-image {
         display: none;
     }
+    .apresentation-box{
+        margin-bottom: 60px;
+    }
     .apresentation-box div{
         display: flex;
         position: absolute;
@@ -110,5 +119,17 @@ h2, h3, h4{
         letter-spacing: 0em;
         text-align: center;
         color: #666666;
+    }
+
+    .NewContentBox {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rightPlaceBottomBox {
+        display: flex;
+        flex-direction: row;
     }
 }
