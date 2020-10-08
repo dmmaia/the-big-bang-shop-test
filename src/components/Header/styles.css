@@ -1,6 +1,5 @@
 .header {
     max-width: 1920;
-    height: 106px;
     border-bottom: 1px solid #C4C4C4;
     display: flex;
     align-items: center;
@@ -8,8 +7,6 @@
 
     font-family: Proxima Nova;
     font-weight: 500;
-
-
 }
 .logo-image {
     padding-right: 12vw;
@@ -17,12 +14,22 @@
 }
 
 @media(max-width: 850px){
+    .header {
+        margin-bottom: 24px;
+        height: 100px;
+    }
+
     .mobile-config {
         display: none;
     } 
 }
 
-@media(max-width:949px){
+@media(max-width:949px) and (min-width: 851px){
+    .header {
+        margin-bottom: 60px;
+        height: 106px;
+    }
+
     .header-menu li{
         display: inline-block;
         color: #666666;
@@ -40,6 +47,11 @@
 }
 
 @media(min-width:950px){
+    .header {
+        margin-bottom: 60px;
+        height: 106px;
+    }
+
     .header-menu li{
         display: inline-block;
         color: #666666;

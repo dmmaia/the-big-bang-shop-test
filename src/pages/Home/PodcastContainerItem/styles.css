@@ -1,0 +1,35 @@
+.rightPlace .podcastBox {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.rightPlace .podcastBox h2 {
+    position: absolute;
+    width: 398px;
+    height: 48px;
+    top: 652px;
+    margin-left: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.rightPlace .podcastBox p {
+    position: absolute;
+    height: 12px;
+    top: 630px;
+    margin-left: 10px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: left;
+
+    color: #FFFFFF;
+}

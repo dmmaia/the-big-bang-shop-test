@@ -1,7 +1,15 @@
-.rightPlaceBottomBox .marketBox .marketDescription,.marketPrice{
+.rightPlaceBottomBox > .marketBox > .marketDescription {
     display: none;
 }
-.rightPlaceBottomBox .marketBox h2{
+.rightPlaceBottomBox > .marketBox > .marketPrice {
+    display: none;
+}
+
+
+.rightPlaceBottomBox > .marketBox {
+    margin-left: 24px;
+}
+.rightPlaceBottomBox > .marketBox h2{
     position: absolute;
     top: 924px;
     width: 160px;
@@ -18,7 +26,7 @@
 
     color: #FFFFFF;
 }
-.rightPlaceBottomBox .marketBox .marketBuyNow {
+.rightPlaceBottomBox > .marketBox .marketBuyNow {
     position: absolute;
     top: 982px;
     font-size: 12px;

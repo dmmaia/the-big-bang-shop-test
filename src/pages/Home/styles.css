@@ -85,6 +85,11 @@ h2, h3, h4{
         text-align: center;
         color: #666666;
     }
+
+    .recomendedBox {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width:851px){
@@ -126,10 +131,90 @@ h2, h3, h4{
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+        padding-bottom: 24px;
+        border-bottom: #C4C4C4 solid 1px;
     }
 
     .rightPlaceBottomBox {
         display: flex;
         flex-direction: row;
     }
+
+
+    .recomendedBox {
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+        justify-content: center;
+        display: flex;
+        
+    }
+    .recomendedBox .recomendedText {
+        margin-right: 18px;
+        text-align: center;
+        margin-top: 87px;
+    }
+
+    .recomendedBox > .recomendedText > p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        width: 163px;
+    }
+    .recomendedBox > .recomendedText > h2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 27px;
+        width: 163px;
+    }
+
+    .recomendedBox > .marketBox > img {
+        width: 145px;
+        height: 145px;
+        top: 1039px;
+    }
+
+    .recomendedBox > .marketBox {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .recomendedBox > .marketBox h2 {
+        position: relative;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    .recomendedBox > .marketBox > .marketBuyNow{
+        display: none;
+    }
+
+    .recomendedBox > .marketBox > .marketDescription {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 11px;
+        text-align: center;
+
+        color: #666666;
+    }
+
+    .recomendedBox > .marketBox > .marketPrice{
+        top: 1227px;
+        position: absolute;
+
+        margin-top: 10px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 40px;
+    }
+    
 }

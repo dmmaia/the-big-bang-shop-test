@@ -1,8 +1,6 @@
 import React,{useState, useEffect} from 'react';
 
 import './styles.css';
-import ApresentationImage from '../../assets/apresentation-image-home.png';
-import ApresentationImageMobile from '../../assets/apresentation-image-home-mobile.png';
 
 import imgBlog1 from '../../assets/blog-img-1.png';
 
@@ -10,8 +8,12 @@ import imgPodcast from '../../assets/podcast-img-1.png';
 
 import imgCourse from '../../assets/course-img-1.png';
 
-import imgMarket from '../../assets/market-img-1.png';
+import imgMarket1 from '../../assets/market-img-1.png';
+import imgMarket2 from '../../assets/market-img-2.png';
+import imgMarket3 from '../../assets/market-img-3.png';
+import imgMarket4 from '../../assets/market-img-4.png';
 
+import ApresentationBox from './ApresentationBox';
 import BlogContainerItem from './BlogContainerItem';
 import PodcastContainerItem from './PodcastContainerItem';
 import CursoConatinerItem from './CursoContainerItem';
@@ -36,7 +38,7 @@ function Home() {
         setPodcasts([{
             id: 0,
             marketImg: imgPodcast,
-            title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+            title: 'Nome do episódio do podcast lorem ipsum dolor sit amet consectetur eli...',
             number: 122
         }
         ]);
@@ -44,31 +46,60 @@ function Home() {
         setCourses([{
             id: 0,
             marketImg: imgCourse,
-            title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+            title: 'Imersão Vinyasa Flow',
             date: '04 ABR'
         } 
         ]);
 
         setMarket([{
             id: 0,
-            marketImg: imgMarket,
+            marketImg: imgMarket1,
             name: 'Condicionador Namah',
             description: 'Lorem ipsum dolor',
             price:'69,00'
-        } 
+        },{
+            id: 1,
+            marketImg: imgMarket2,
+            name: 'Livro Acenda a Sua Luz',
+            description: 'Carol Rache',
+            price:'54,00'
+        },{
+            id: 2,
+            marketImg: imgMarket3,
+            name: 'Camiseta Solidária',
+            description: 'Tamanho único',
+            price:'149,00'
+        },{
+            id: 3,
+            marketImg: imgMarket4,
+            name: 'Tapete Viagem Pássaro',
+            description: '',
+            price:'237,00'
+        },{
+            id: 4,
+            marketImg: imgMarket2,
+            name: 'Livro Acenda a Sua Luz',
+            description: 'Carol Rache',
+            price:'54,00'
+        },{
+            id: 5,
+            marketImg: imgMarket3,
+            name: 'Camiseta Solidária',
+            description: 'Tamanho único',
+            price:'149,00'
+        },{
+            id: 6,
+            marketImg: imgMarket4,
+            name: 'Tapete Viagem Pássaro',
+            description: '',
+            price:'237,00'
+        },
         ]);
     },[])
 
   return (
       <div className="container">
-            <div className="apresentation-box" >
-                <img alt="apresentation" src={ApresentationImage} className="desktop-apresentation-image"/>
-                <img alt="apresentation" src={ApresentationImageMobile} className="mobile-apresentation-image"/>
-                <div>
-                    <h2>Lorem ipsum dolor sit amet</h2>
-                    <p>Lorem ipsum dolor sit amet</p>
-                </div>
-            </div>
+            <ApresentationBox />
 
             <div className="NewContentBox">
                 <BlogContainerItem {...(blogs[0])} />
@@ -79,6 +110,15 @@ function Home() {
                         <MarketContainerItem {...(market[0])} />
                     </div>
                 </div>
+            </div>
+
+            <div className="recomendedBox">
+                <div className="recomendedText">
+                    <p>nossos especialistas</p>
+                    <h2>recomendam</h2>
+                </div>
+
+                {market.map(marketItem => marketItem.id===0?'':<MarketContainerItem {...marketItem} />)}
             </div>
       </div>
   );
