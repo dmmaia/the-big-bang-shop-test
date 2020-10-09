@@ -22,26 +22,30 @@ const api = (fakeRoute) => {
                     marketImg: imgBlog1,
                     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                     topic: 'VIAGEM',
-                    author: 'Fulano de Tal'
+                    author: 'Fulano de Tal',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...'
                 },{
                     id: 1,
                     marketImg: imgBlog2,
                     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                     topic: 'DESENVOLVIMENTO PESSOAL',
-                    author: 'Fulano de Tal'
+                    author: 'Fulano de Tal',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...'
                 },{
                     id: 2,
                     marketImg: imgBlog3,
                     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                     topic: 'VIAGEM',
-                    author: 'Fulano de Tal'
+                    author: 'Fulano de Tal',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...'
                 },
                 {
                     id: 3,
                     marketImg: imgBlog2,
                     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                     topic: 'VIAGEM',
-                    author: 'Fulano de Tal'
+                    author: 'Fulano de Tal',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...'
                 }
                 ]
                 break;
