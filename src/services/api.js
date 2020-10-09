@@ -29,7 +29,20 @@ const api = (fakeRoute) => {
                     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                     topic: 'DESENVOLVIMENTO PESSOAL',
                     author: 'Fulano de Tal'
+                },{
+                    id: 2,
+                    marketImg: imgBlog3,
+                    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                    topic: 'VIAGEM',
+                    author: 'Fulano de Tal'
                 },
+                {
+                    id: 3,
+                    marketImg: imgBlog2,
+                    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                    topic: 'VIAGEM',
+                    author: 'Fulano de Tal'
+                }
                 ]
                 break;
                 
