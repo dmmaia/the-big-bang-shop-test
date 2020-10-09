@@ -10,6 +10,7 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+    position: absolute;
 
     height: 48px;
     width: 165px;

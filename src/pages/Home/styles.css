@@ -8,12 +8,16 @@
 }
 
 h2, h3, h4{
-    position: absolute;
-    font-family: Chloe;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0em;
     text-align: center;
+}
+button {
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: #666666 1px 1px 1px;
 }
 
 .apresentation-box{
@@ -28,30 +32,6 @@ h2, h3, h4{
     .desktop-apresentation-image{
         display: none;
     }
-    .apresentation-box{
-        margin-bottom: 24px;
-    }
-    .apresentation-box div {
-        position: absolute;
-        width: 161px;
-    }
-    .apresentation-box h2 {
-        font-size: 18px;
-        line-height: 18px;
-        left: 191px;
-        top: 146px;
-    }
-    .apresentation-box p{
-        position: absolute;
-        margin-top: 40px;
-        font-family: Proxima Nova;
-        font-size: 11px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 11px;
-        letter-spacing: 0em;
-        text-align: center;
-    }
 }
 
 @media screen and (min-width: 451px) and (max-width: 850px){
@@ -61,31 +41,6 @@ h2, h3, h4{
     .mobile-apresentation-image {
         display: none;
     }
-    .apresentation-box{
-        margin-bottom: 60px;
-    }
-    .apresentation-box div{
-        display: flex;
-        position: absolute;
-        right: 26px;
-        justify-content: center;
-        top: 29vw
-    }
-    .apresentation-box h2 {
-        font-size: 22px;
-        line-height: 22px;
-    }
-    .apresentation-box p {
-        font-size: 16px;
-        margin-top: 50px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 9px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: #666666;
-    }
-
     .recomendedBox {
         display: flex;
         flex-direction: row;
@@ -98,32 +53,6 @@ h2, h3, h4{
     }
     .mobile-apresentation-image {
         display: none;
-    }
-    .apresentation-box{
-        margin-bottom: 60px;
-    }
-    .apresentation-box div{
-        display: flex;
-        position: absolute;
-        width: 384px;
-        right: 25vh;
-        justify-content: center;
-    }
-    .apresentation-box h2{
-        font-size: 36px;
-        line-height: 36px;
-        margin-top: 3vw;
-        
-    }
-    .apresentation-box p {
-        font-size: 18px;
-        margin-top: 9vw;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: #666666;
     }
 
     .NewContentBox {
@@ -216,5 +145,13 @@ h2, h3, h4{
         line-height: 12px;
         margin-left: 40px;
     }
-    
+    /*Section Title*/
+    .sectionTitleHome {
+        top: 1370px;
+        position: absolute;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 48px;
+    }
 }
