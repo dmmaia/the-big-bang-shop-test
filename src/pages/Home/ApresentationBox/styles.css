@@ -1,0 +1,108 @@
+@media screen and (max-width: 450px){
+    .apresentation-box{
+        margin-bottom: 24px;
+    }
+    .apresentation-box div {
+        position: absolute;
+        width: 161px;
+        top: 146px;
+        left: 176px;
+    }
+    .apresentation-box h2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .apresentation-box p{
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .apresentation-box button {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 850px){
+    .apresentation-box{
+        margin-bottom: 60px;
+    }
+    .apresentation-box div{
+        position: absolute;
+        width: 384px;
+        justify-content: center;
+        top: 170px;
+        margin-left: 400px;
+    }
+    .apresentation-box h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .apresentation-box p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #666666;
+    }
+
+    .apresentation-box button {
+        width: 180px;
+        height: 36px;
+        margin-top: 20px;
+        margin-left: 100px;
+
+        background: #73A8A0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width:851px){
+    .apresentation-box{
+        margin-bottom: 60px;
+    }
+    .apresentation-box div{
+        position: absolute;
+        width: 384px;
+        justify-content: center;
+        top: 208px;
+        margin-left: 550px;
+    }
+    .apresentation-box h2{
+        font-size: 36px;
+        line-height: 36px;
+        
+    }
+    .apresentation-box p {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #666666;
+    }
+    .apresentation-box button {
+        width: 180px;
+        height: 36px;
+        margin-top: 20px;
+        margin-left: 100px;
+
+        background: #73A8A0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+}
