@@ -4,8 +4,8 @@ import "./styles.css";
 
 const NewLetter = () => (
     <div className="newsLetter">
-        <h2>Namah</h2>
-        <h2>no seu e-mail</h2>
+        <h2>Namah no seu e-mail</h2>
+        
         <p>Assine nossa newsletter</p>
 
         <input type='text' placeholder="Seu e-mail" className="textEmail" />
