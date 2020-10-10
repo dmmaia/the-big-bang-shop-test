@@ -1,12 +1,15 @@
 @media screen and (max-width: 450px){
     .apresentation-box{
+        position: absolute;
         margin-bottom: 24px;
+        left: 15px;
+        top: 124px;
     }
     .apresentation-box div {
         position: absolute;
         width: 161px;
-        top: 146px;
         left: 176px;
+        top: 20px
     }
     .apresentation-box h2 {
         font-size: 18px;
@@ -20,6 +23,8 @@
         letter-spacing: 0em;
         text-align: center;
         margin-top: 8px;
+
+        color: #666666;
     }
 
     .apresentation-box button {

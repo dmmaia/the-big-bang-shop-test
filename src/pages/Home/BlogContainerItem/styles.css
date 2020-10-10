@@ -1,186 +1,389 @@
 .NewContentBox .blogDescription {
     display: none;
 }
-.NewContentBox .blogBox h2{
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 42px;
-    letter-spacing: 0em;
-    text-align: left;
 
-    position: absolute;
-    width: 752px;
-    height: 84px;
-    top: 850px;
+@media screen and (max-width: 450px){
+    .blogBox img {
+        position: relative;
+        width: 100%;    
+    }
 
-    color: #FFFFFF;
-}
+    .NewContentBox .blogBox {
+        position: absolute;
+        width: 345px;
+        height: 230px;
+        top: 248px;
+        left:15px
+    }
 
-.NewContentBox .blogBox p {
-    color: #FFFFFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    text-decoration-line: underline;
+    .NewContentBox .blogBox h2 {
+        font-size: 22px;
+        line-height: 22px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 145px;
+        width: 321px;
+        text-align: start;
+        margin-left: 12px;
+    }
 
-    height: 18px;
-    top: 966px;
-    margin-left: 20px;
-}
-
-.NewContentBox .blogBox p span {
-    font-size: 17px;
-    line-height: 17px;
-    margin-left: 50px;
-    text-decoration-line: none;
-}
-.NewContentBox .blogBox p span span {
-    margin-left: 0px;
-    text-decoration-line: underline;
-}
-
-/*News About Blogs*/
-.NewContentBlogBox {
-    position: absolute;
-    top: 1478px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.NewContentBlogBox  .blogBox p{
-    position: absolute;
-}
-.NewContentBlogBox  .blogBox img {
-    width: 100%;
-}
-
-.NewContentBlogBox div:first-child .blogBox h2 {
-    position: absolute;
-    width: 548px;
-    height: 72px;
-    top: 271px;
-
-    font-family: Chloe;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 36px;
-
-    color: #ffffff
-}
-.NewContentBlogBox div:first-child .blogBox p {
-    position: absolute;
-    height: 14px;
-    top: 356px;
-    margin-left: 20px;
+    .NewContentBox .blogBox p {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        text-decoration-line: underline;
     
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-    text-decoration-line: underline;
+        height: 18px;
+        top: 205px;
+        margin-left: 20px;
+    }
     
-    /* Branco */
-    color: #FFFFFF;
-} 
+    .NewContentBox .blogBox p span {
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 50px;
+        text-decoration-line: none;
+    }
+    .NewContentBox .blogBox p span span {
+        margin-left: 0px;
+        text-decoration-line: underline;
+    }
 
-.NewContentBlogBox div:first-child .blogBox p span {
-    margin-left: 50px;
+    /*News About Blogs*/
+    .NewContentBlogBox {
+        position: absolute;
+        top: 1361px;
+        display: flex;
+        flex-direction: column;
+    }
+    .NewContentBlogBox  .blogBox p{
+        position: absolute;
+    }
+    .NewContentBlogBox  .blogBox img {
+        width: 345px;
+        height: 230px;
+    }
+    
+    .NewContentBlogBox div:first-child .blogBox h2 {
+        position: absolute;
+        width: 321px;
+        height: 44px;
+        margin-left: 12px;
+    
+        font-size: 21px;
+        line-height: 21px;
+        text-align: left;
+    
+        color: #ffffff
+    }
+
+    .NewContentBlogBox div:first-child .blogBox:first-child h2 {
+        top: 150px;
+    }
+
+    .NewContentBlogBox div:first-child .blogBox:nth-child(2) h2 {
+        top: 405px;
+    }
+    .NewContentBlogBox div:first-child .blogBox p {
+        position: absolute;
+        margin-left: 20px;
+        
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        text-decoration-line: underline;
+        
+        color: #FFFFFF;
+    } 
+
+    .NewContentBlogBox div:first-child .blogBox:nth-child(2)  p{
+        top: 460px;
+    }
+
+    .NewContentBlogBox div:first-child .blogBox:first-child  p{
+        top: 206px;
+    }
+    
+    .NewContentBlogBox div:first-child .blogBox p span {
+        margin-left: 24px;
+    }
+    
+    .NewContentBlogBox div:first-child .blogBox p span span {
+        margin-left:  0;
+    }
+    
+    .NewContentBlogBox div:first-child {
+        display: flex;
+        flex-direction: column;
+    }
+    .NewContentBlogBox div:nth-child(2){
+        max-width: 345px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .NewContentBlogBox div:first-child .blogBox{
+        width: 345px;
+        height: 230px;
+        margin-bottom: 24px;
+        margin-left: 15px;
+    }
+    .NewContentBlogBox div:first-child .blogBox .blogDescription{
+        display: none;
+    }
+    .NewContentBlogBox div:nth-child(2) .blogBox{
+        max-width: 165px;
+        height: 110px;
+    }
+    .NewContentBlogBox div:nth-child(2) .blogBox:first-child {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .NewContentBlogBox div:nth-child(2) .blogBox .blogDescription{
+        font-size: 12px;
+    
+        text-decoration: none;
+        line-height: 16px;
+        width: 165px;
+        height: 64px;
+        margin-top: 212px;
+        position: absolute;
+        color: #333333;
+    }
+    .NewContentBlogBox div:nth-child(2) .blogBox img{
+        max-width: 165px;
+        max-height: 110px;
+    }
+    
+    .NewContentBlogBox div:nth-child(2) .blogBox h2{
+        width: 165px;
+        height: 54px;
+        position: absolute;
+        margin-top: 114px;
+        font-size: 17px;
+        text-align: left;
+    } 
+    
+    .NewContentBlogBox div:nth-child(2) .blogBox p span{
+        display: none;
+    }
+    
+    .NewContentBlogBox div:nth-child(2) .blogBox p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        margin-top: 188px;
+    
+        text-decoration-line: underline;
+    
+        color: #333333;
+    }
+    
+    .showAllPosts {
+        width: 345px;
+        height: 47px;
+        position: absolute;
+        font-size: 18px;
+        color: #FFFFFF;
+        background-color: #73A8A0;
+        top: 1097px;
+        margin-bottom: 60px;
+        margin-left: 15px;
+    }
 }
 
-.NewContentBlogBox div:first-child .blogBox p span span {
-    margin-left:  0;
+@media screen and (min-width: 451px) and (max-width: 850px){
+    
 }
 
-.NewContentBlogBox div:first-child {
-    display: flex;
-    flex-direction: row;
-}
-.NewContentBlogBox div:nth-child(2){
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-}
-
-.NewContentBlogBox div:first-child .blogBox{
-    width: 588px;
-    height: 392px;
-    margin-bottom: 60px;
-}
-.NewContentBlogBox div:first-child .blogBox:first-child{
-    margin-right: 24px;
-}
-.NewContentBlogBox div:first-child .blogBox .blogDescription{
-    display: none;
-}
-.NewContentBlogBox div:nth-child(2) .blogBox{
-    max-width: 384px;
-    height: 519px;
-}
-.NewContentBlogBox div:nth-child(2) .blogBox:first-child {
-    margin-right: 24px;
-}
-.NewContentBlogBox div:nth-child(2) .blogBox .blogDescription{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-
-    text-decoration: none;
-    line-height: 24px;
-    width: 384px;
-    height: 72px;
-    margin-top: 447px;
-    position: absolute;
-    color: #333333;
-}
-.NewContentBlogBox div:nth-child(2) .blogBox img{
-    max-height: 256px;
-}
-
-.NewContentBlogBox div:nth-child(2) .blogBox h2{
-    width: 384px;
-    height: 108px;
-    position: absolute;
-    margin-top: 282px;
-
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34px;
-    line-height: 34px;
-    text-align: left;
-} 
-
-.NewContentBlogBox div:nth-child(2) .blogBox p span{
-    display: none;
-}
-
-.NewContentBlogBox div:nth-child(2) .blogBox p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-    margin-top: 410px;
-
-    text-decoration-line: underline;
-
-    color: #333333;
-}
-
-.showAllPosts {
-    width: 289px;
-    height: 52px;
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 18px;
-    color: #FFFFFF;
-    margin-top: 60px;
-
-    background-color: #73A8A0;
+@media screen and (min-width:451px){
+    .NewContentBox .blogBox h2{
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+        position: absolute;
+        width: 752px;
+        height: 84px;
+        top: 850px;
+    
+        color: #FFFFFF;
+    }
+    
+    .NewContentBox .blogBox p {
+        color: #FFFFFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        text-decoration-line: underline;
+    
+        height: 18px;
+        top: 966px;
+        margin-left: 20px;
+    }
+    
+    .NewContentBox .blogBox p span {
+        font-size: 17px;
+        line-height: 17px;
+        margin-left: 50px;
+        text-decoration-line: none;
+    }
+    .NewContentBox .blogBox p span span {
+        margin-left: 0px;
+        text-decoration-line: underline;
+    }
+    
+    /*News About Blogs*/
+    .NewContentBlogBox {
+        position: absolute;
+        top: 1478px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .NewContentBlogBox  .blogBox p{
+        position: absolute;
+    }
+    .NewContentBlogBox  .blogBox img {
+        width: 100%;
+    }
+    
+    .NewContentBlogBox div:first-child .blogBox h2 {
+        position: absolute;
+        width: 548px;
+        height: 72px;
+        top: 271px;
+    
+        font-family: Chloe;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 36px;
+    
+        color: #ffffff
+    }
+    .NewContentBlogBox div:first-child .blogBox p {
+        position: absolute;
+        height: 14px;
+        top: 356px;
+        margin-left: 20px;
+        
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration-line: underline;
+        
+        /* Branco */
+        color: #FFFFFF;
+    } 
+    
+    .NewContentBlogBox div:first-child .blogBox p span {
+        margin-left: 50px;
+    }
+    
+    .NewContentBlogBox div:first-child .blogBox p span span {
+        margin-left:  0;
+    }
+    
+    .NewContentBlogBox div:first-child {
+        display: flex;
+        flex-direction: row;
+    }
+    .NewContentBlogBox div:nth-child(2){
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .NewContentBlogBox div:first-child .blogBox{
+        width: 588px;
+        height: 392px;
+        margin-bottom: 60px;
+    }
+    .NewContentBlogBox div:first-child .blogBox:first-child{
+        margin-right: 24px;
+    }
+    .NewContentBlogBox div:first-child .blogBox .blogDescription{
+        display: none;
+    }
+    .NewContentBlogBox div:nth-child(2) .blogBox{
+        max-width: 384px;
+        height: 519px;
+    }
+    .NewContentBlogBox div:nth-child(2) .blogBox:first-child {
+        margin-right: 24px;
+    }
+    .NewContentBlogBox div:nth-child(2) .blogBox .blogDescription{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+    
+        text-decoration: none;
+        line-height: 24px;
+        width: 384px;
+        height: 72px;
+        margin-top: 447px;
+        position: absolute;
+        color: #333333;
+    }
+    .NewContentBlogBox div:nth-child(2) .blogBox img{
+        max-height: 256px;
+    }
+    
+    .NewContentBlogBox div:nth-child(2) .blogBox h2{
+        width: 384px;
+        height: 108px;
+        position: absolute;
+        margin-top: 282px;
+    
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 34px;
+        text-align: left;
+    } 
+    
+    .NewContentBlogBox div:nth-child(2) .blogBox p span{
+        display: none;
+    }
+    
+    .NewContentBlogBox div:nth-child(2) .blogBox p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 410px;
+    
+        text-decoration-line: underline;
+    
+        color: #333333;
+    }
+    
+    .showAllPosts {
+        width: 289px;
+        height: 52px;
+    
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-top: 60px;
+    
+        background-color: #73A8A0;
+    }
 }
